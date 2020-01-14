@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "7793af4c131b8d896ef422c4b7cd950ef4b40e608d9902d220f8d2afaaa71bd4"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "automata-lib": {
+            "hashes": [
+                "sha256:b5673e92f88b16a9f0ea99b4c7e1048380077997480383bdd7db1346e4bd72f3"
+            ],
+            "index": "pypi",
+            "version": "==3.1.0.post1"
+        }
+    },
+    "develop": {}
+}
