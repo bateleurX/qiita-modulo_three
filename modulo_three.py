@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.8
+#!/usr/bin/env python3
 
 from automata.fa.dfa import DFA
 import sys
@@ -30,11 +30,10 @@ print(input)
 entry = format(int(input),'b')
 
 # accepd_inputで受理するか判定
-print("Result:")
 if modulo.accepts_input(entry):
-    print("Accepted")
+    print("Result: Accepted")
 else:
-    print("Rejected")
+    print("Result: Rejected")
 
 # 遷移はread_input_stepwiseで表示可能
 print("Transitions")
